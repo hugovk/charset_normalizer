@@ -28,5 +28,5 @@ jobs:
         python setup.py install
     - name: Run tests
       run: |
-        pytest
+        pytest --durations=10
     - uses: codecov/codecov-action@v1
