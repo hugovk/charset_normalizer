@@ -8,5 +8,5 @@ fi
 set -x
 
 ${PREFIX}pip install -r ./dev-requirements.txt
-${PREFIX}black --target-version=py37 charset_normalizer
+${PREFIX}black --target-version=py38 charset_normalizer
 ${PREFIX}isort charset_normalizer
